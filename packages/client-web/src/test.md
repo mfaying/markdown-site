@@ -48,7 +48,7 @@ export default Demo;
 
 # Grid
 
-功能和 Table 组件类似，Grid 是使用 table 标签实现的，而 Table 是使用 div + flex 布局实现的。
+功能和 Table 组件类似，Grid 是使用 `<table>` 标签实现的，而 Table 是使用 div + flex 布局实现的。
 
 ## 例子
 

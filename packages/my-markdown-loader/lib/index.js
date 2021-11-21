@@ -16,7 +16,11 @@ const extractCode = (ast, dir) => {
 };
 
 const getConvertedSource = (resourcePath) => {
-  return fs.readFileSync(resourcePath).toString().replace(/```/g, "~~~");
+  return fs
+    .readFileSync(resourcePath)
+    .toString()
+    .replace(/```/g, "~~~")
+    .replace(/`/g, "");
 };
 
 module.exports = function (source) {
