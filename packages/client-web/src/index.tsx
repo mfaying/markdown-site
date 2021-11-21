@@ -19,6 +19,9 @@ ReactDom.render(
 
           return (
             <>
+              <React.Suspense fallback={<div>loading...</div>}>
+                <Test />
+              </React.Suspense>
               <SyntaxHighlighter
                 children={String(children).replace(/\n$/, "")}
                 style={vscDarkPlus}
@@ -26,9 +29,6 @@ ReactDom.render(
                 PreTag="div"
                 {...props}
               />
-              <React.Suspense fallback={<div>loading...</div>}>
-                <Test />
-              </React.Suspense>
             </>
           );
         } else {

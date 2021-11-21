@@ -1,7 +1,7 @@
 import React from "react";
-import { Input } from "zent";
+import { Grid } from "zent";
 
-const Test: React.FC = () => {
+const Demo: React.FC = () => {
   const columns = [{
     title: "姓名",
     name: "name"
@@ -13,7 +13,10 @@ const Test: React.FC = () => {
   }];
 
 
-  return <Input />;
+  return <div>
+    Test22
+    <Grid columns={columns} datasets={datasets} />
+  </div>;
 };
 
-export default Test;
+export default Demo;

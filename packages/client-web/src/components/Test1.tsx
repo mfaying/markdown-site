@@ -1,22 +1,21 @@
 import React from "react";
-import { Grid } from "zent";
+import { Dialog, Button } from "zent";
 
-const Test: React.FC = () => {
-  const columns = [{
-    title: "姓名",
-    name: "name"
-  }]
+const { openDialog } = Dialog;
 
-  const datasets = [{
-    name: "xxx",
-    id: 1
-  }];
+const Demo: React.FC = () => {
+  const open = () => {
+    openDialog({
+      title: "title",
+      children: <div>Dialog</div>,
+    });
+  };
 
-
-  return <div>
-    Test22
-    <Grid columns={columns} datasets={datasets} />
-  </div>;
+  return (
+    <Button type="primary" onClick={open}>
+      点击打开弹窗
+    </Button>
+  );
 };
 
-export default Test;
+export default Demo;

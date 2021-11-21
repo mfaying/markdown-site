@@ -2,8 +2,8 @@ import React from "react";
 import { Button} from "zent";
 
 
-const Test: React.FC = () => {
-  return <div>Test113<Button type="primary">32131</Button></div>;
+const Demo: React.FC = () => {
+  return <div>Test113<Button type="primary">测试32131</Button></div>;
 };
 
-export default Test;
+export default Demo;
