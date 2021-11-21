@@ -20,6 +20,8 @@ export default Demo;
 
 弹窗
 
+## 例子
+
 ```code
 import React from "react";
 import { Dialog, Button } from "zent";
@@ -43,8 +45,6 @@ const Demo: React.FC = () => {
 
 export default Demo;
 ```
-
-## 例子
 
 # Grid
 
