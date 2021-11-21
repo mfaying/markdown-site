@@ -1,0 +1,23 @@
+{
+  "name": "webpack-doc",
+  "private": true,
+  "version": "1.0.0",
+  "description": "webpack doc",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "xxx"
+  },
+  "scripts": {
+    "dev": "cd packages/client-web && yarn dev",
+    "build": "cd packages/client-web && yarn build",
+    "watch": "cd packages/client-web && yarn watch"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

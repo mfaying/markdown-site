@@ -1,0 +1,31 @@
+# Created by .ignore support plugin (hsz.mobi)
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+
+.vscode
+.idea
+.history
+.happypack
+.tern-project
+build
+dist/
+run/
+run
+node_modules
+ncp-debug.log
+npm-debug.log
+npm-debug.log.*
+lerna-debug.log
+lerna-debug.log.*
+
+local
+.superman-cache
+.supman-cache
+
+conf/*.json
+
+yarn-error.log
+.DS_Store
+
+assets.json
+.awcache
