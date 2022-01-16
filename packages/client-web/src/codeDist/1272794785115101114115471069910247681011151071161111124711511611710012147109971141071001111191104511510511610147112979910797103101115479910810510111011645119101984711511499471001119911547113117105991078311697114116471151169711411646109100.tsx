@@ -6,14 +6,14 @@ const { openDialog } = Dialog;
 const Demo: React.FC = () => {
   const open = () => {
     openDialog({
-      title: "title",
+      title: "title1100",
       children: <div>Dialog</div>,
     });
   };
 
   return (
     <Button type="primary" onClick={open}>
-      点击打开弹窗btn
+      点击打开弹窗btn1100
     </Button>
   );
 };

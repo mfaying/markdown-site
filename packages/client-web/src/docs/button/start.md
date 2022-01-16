@@ -18,36 +18,6 @@ const Demo: React.FC = () => {
 export default Demo;
 ```
 
-# Dialog
-
-弹窗
-
-## 例子
-
-```code
-import React from "react";
-import { Dialog, Button } from "zent";
-
-const { openDialog } = Dialog;
-
-const Demo: React.FC = () => {
-  const open = () => {
-    openDialog({
-      title: "title",
-      children: <div>Dialog</div>,
-    });
-  };
-
-  return (
-    <Button type="primary" onClick={open}>
-      点击打开弹窗btn
-    </Button>
-  );
-};
-
-export default Demo;
-```
-
 # Grid
 
 功能和 Table 组件类似，Grid 是使用 `<table>` 标签实现的，而 Table 是使用 div + flex 布局实现的。

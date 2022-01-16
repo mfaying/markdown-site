@@ -19,6 +19,15 @@ const writeCodeConfig = (dir, config) => {
   fs.writeFileSync(path, JSON.stringify(config));
 };
 
+const getCodeFileName = (resourcePath, position) => {
+  let name = `${position.column}${position.line}${position.offset}`;
+  resourcePath.split("").forEach((char) => {
+    name += char.charCodeAt(0);
+  });
+
+  return name;
+};
+
 const extractCode = (ast, dir, resourcePath) => {
   mkdir(dir);
 
@@ -26,7 +35,10 @@ const extractCode = (ast, dir, resourcePath) => {
     ast.children.forEach((child, index, ...rest) => {
       const { type, value } = child;
       if (type === "code") {
-        const codeFilename = new Date().getTime();
+        const codeFilename = getCodeFileName(
+          resourcePath,
+          child?.position?.start
+        );
 
         const path = `${dir}/${codeFilename}.tsx`;
 
