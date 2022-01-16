@@ -1,4 +1,6 @@
-# Button1
+/docs/button/start.md
+
+# Button 组件
 
 按钮, 提供基础样式及基础状态.
 
@@ -10,7 +12,7 @@ import { Button} from "zent";
 
 
 const Demo: React.FC = () => {
-  return <div>Test113<Button type="primary">测试32131</Button></div>;
+  return <div>Test14413445<Button type="primary">btn测试22311132131445</Button></div>;
 };
 
 export default Demo;
@@ -38,7 +40,7 @@ const Demo: React.FC = () => {
 
   return (
     <Button type="primary" onClick={open}>
-      点击打开弹窗
+      点击打开弹窗btn
     </Button>
   );
 };
@@ -69,7 +71,7 @@ const Demo: React.FC = () => {
 
 
   return <div>
-    Test22
+    BtnTest22
     <Grid columns={columns} datasets={datasets} />
   </div>;
 };

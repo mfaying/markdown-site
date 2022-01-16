@@ -913,6 +913,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.7.6":
+  version "7.16.5"
+  resolved "http://registry.npm.qima-inc.com/@babel/runtime/download/@babel/runtime-7.16.5.tgz#7f3e34bf8bdbbadf03fbb7b1ea0d929569c9487a"
+  integrity sha1-fz40v4vbut8D+7ex6g2SlWnJSHo=
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/runtime@^7.8.4":
   version "7.15.3"
   resolved "http://registry.npm.qima-inc.com/@babel/runtime/download/@babel/runtime-7.15.3.tgz#2e1c2880ca118e5b2f9988322bd8a7656a32502b"
@@ -2735,6 +2742,13 @@ highlight.js@^10.4.1, highlight.js@~10.7.0:
   resolved "http://registry.npm.qima-inc.com/highlight.js/download/highlight.js-10.7.3.tgz#697272e3991356e40c3cac566a74eef681756531"
   integrity sha1-aXJy45kTVuQMPKxWanTu9oF1ZTE=
 
+history@^5.2.0:
+  version "5.2.0"
+  resolved "http://registry.npm.qima-inc.com/history/download/history-5.2.0.tgz#7cdd31cf9bac3c5d31f09c231c9928fad0007b7c"
+  integrity sha1-fN0xz5usPF0x8JwjHJko+tAAe3w=
+  dependencies:
+    "@babel/runtime" "^7.7.6"
+
 hpack.js@^2.1.6:
   version "2.1.6"
   resolved "http://registry.npm.qima-inc.com/hpack.js/download/hpack.js-2.1.6.tgz#87774c0949e513f42e84575b3c45681fade2a0b2"
@@ -4495,6 +4509,21 @@ react-markdown@^7.1.0:
     unified "^10.0.0"
     unist-util-visit "^4.0.0"
     vfile "^5.0.0"
+
+react-router-dom@^6.2.1:
+  version "6.2.1"
+  resolved "http://registry.npm.qima-inc.com/react-router-dom/download/react-router-dom-6.2.1.tgz#32ec81829152fbb8a7b045bf593a22eadf019bec"
+  integrity sha1-MuyBgpFS+7insEW/WToi6t8Bm+w=
+  dependencies:
+    history "^5.2.0"
+    react-router "6.2.1"
+
+react-router@6.2.1, react-router@^6.2.1:
+  version "6.2.1"
+  resolved "http://registry.npm.qima-inc.com/react-router/download/react-router-6.2.1.tgz#be2a97a6006ce1d9123c28934e604faef51448a3"
+  integrity sha1-viqXpgBs4dkSPCiTTmBPrvUUSKM=
+  dependencies:
+    history "^5.2.0"
 
 react-syntax-highlighter@^15.4.5:
   version "15.4.5"

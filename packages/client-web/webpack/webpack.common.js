@@ -89,7 +89,7 @@ module.exports = {
           {
             loader: "my-markdown-loader",
             options: {
-              dir: "./src/components",
+              dir: "./src/codeDist",
             },
           },
         ],
