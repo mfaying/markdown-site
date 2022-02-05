@@ -1,0 +1,7 @@
+{
+  "extends": "../../tsconfig.front-pkg.json",
+  "compilerOptions": {
+    "outDir": "./es",
+    "rootDir": "./src"
+  }
+}

@@ -1,0 +1,16 @@
+// 会发布出去的 *前端* package 使用的配置
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    // 处理兼容性
+    "target": "ES5",
+    // 前端代码使用 esm
+    "module": "esnext",
+    // 生成 .d.ts
+    "declaration": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    // 编译 jsx
+    "jsx": "react"
+  }
+}

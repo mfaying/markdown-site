@@ -1,0 +1,1 @@
+{"version":3,"file":"unified.d copy.js","sourceRoot":"","sources":["../src/unified.d copy.ts"],"names":[],"mappings":"","sourcesContent":["declare module \"unified\";\n"]}

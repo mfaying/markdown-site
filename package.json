@@ -9,15 +9,14 @@
     "url": "xxx"
   },
   "scripts": {
-    "dev": "cd packages/client-web && yarn dev",
-    "build": "cd packages/client-web && yarn build",
-    "watch": "cd packages/client-web && yarn watch"
+    "dev": "lerna run dev --parallel",
+    "build": "cd packages/markdown-site-front && yarn build",
+    "watch": "cd packages/markdown-site-front && yarn watch"
   },
   "workspaces": [
     "packages/*"
   ],
-  "dependencies": {
-  },
   "devDependencies": {
+    "lerna": "^4.0.0"
   }
 }

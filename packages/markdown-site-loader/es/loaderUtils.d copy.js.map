@@ -1,0 +1,1 @@
+{"version":3,"file":"loaderUtils.d copy.js","sourceRoot":"","sources":["../src/loaderUtils.d copy.ts"],"names":[],"mappings":"","sourcesContent":["declare module \"loader-utils\";\n"]}
